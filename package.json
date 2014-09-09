@@ -1,0 +1,33 @@
+{
+    "name": "latitude2openpaths",
+    "version": "0.0.1",
+    "description": "A script to import Google Latitude data into OpenPaths",
+    "main": "./import.js",
+    "author": "Bruno Bernardino <bruno.bernardino@gmail.com>",
+    "script": {
+        "import": "node import.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BrunoBernardino/latitude2openpaths"
+    },
+    "bugs": {
+        "url": "https://github.com/BrunoBernardino/latitude2openpaths/issues"
+    },
+    "keywords": [
+        "google latitude",
+        "latitude",
+        "openpaths",
+        "geo",
+        "location history",
+        "import",
+        "BrunoBernardino"
+    ],
+    "dependencies": {
+        "async": "0.9.x",
+        "openpaths-api": "0.0.x"
+    },
+    "private": true,
+    "license": "MIT",
+    "homepage": "https://github.com/BrunoBernardino/latitude2openpaths"
+}
